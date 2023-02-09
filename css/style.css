@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
+body {
+  max-width: 192rem;
+  width: 100%;
+  font-weight: 700;
+  line-height: 1.6;
+  overflow-x: hidden;
+  background: url(../src/shutterstock_2189773743\ 1.png);
+  height: 100vh;
+}
+
+.logo-redberry-red {
+  margin-left: 7rem;
+  margin-top: 2.5rem;
+  padding-bottom: 2.6rem;
+}
+.border {
+  border-top: 1px solid black;
+  margin: auto 7rem;
+}
+
+.logo-redberry {
+  margin: 47rem 53rem 31rem 110rem;
+}
+/* .a-el {
+  display: block;
+} */
+
+.link {
+  width: 46rem;
+  height: 6rem;
+  background-color: #1a1a1a;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: 1.5rem 12rem;
+  border-radius: 8px;
+  display: flex;
+  text-align: end;
+  margin: -57rem auto;
+}
