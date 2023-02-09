@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  /* font-size: 62.5%; */
+}
+
+.cont {
+  margin-left: 150px;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+.border {
+  border-top: 1px solid black;
+  margin-right: 980px;
+  margin-top: 13px;
+}
+.one-third {
+  font-size: 20px;
+  margin-top: 47px;
+
+  font-weight: 400;
+}
+.personal-info {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-right: 595px;
+  margin-top: 47px;
+}
+.name-surname-part {
+  margin-top: 77px;
+  display: flex;
+}
+.input-name {
+  width: 368px;
+  height: 48px;
+  margin-top: 8px;
+
+  margin-right: 56px;
+}
+.input-surname {
+  width: 368px;
+  height: 48px;
+  margin-top: 8px;
+}
+.name {
+  font-size: 16px;
+  font-weight: 500;
+}
+.surname {
+  font-size: 16px;
+  font-weight: 500;
+}
+.paragraph {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: -5px;
+  margin-bottom: 54px;
+
+  color: #2e2e2e;
+}
+.personal-photo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 54px;
+}
+.photo-text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+
+.upload-btn {
+  font-size: 1.1rem;
+  border: none;
+  width: 107px;
+  height: 27px;
+  background-color: #0e80bf;
+  color: white;
+  border-radius: 4px;
+}
+.about-me {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.form-about-me {
+  width: 795px;
+  height: 103px;
+  margin-bottom: 33px;
+}
+.mail {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.input-mail {
+  width: 795px;
+  height: 48px;
+}
+.number {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.input-number {
+  width: 795px;
+  height: 48px;
+}

@@ -1,12 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/personal.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cont">
+        <header class="header">
+          <h3 class="personal-info">პირადი ინფო</h3>
+          <p class="one-third">1/3</p>
+        </header>
+        <div class="border"></div>
+        <div class="name-surname-part">
+          <form>
+            <h3 class="name">სახელი</h3>
+            <input
+              class="input-name"
+              type="text"
+              id="name"
+              name="name"
+            /><br /><br />
+            <p class="paragraph">მინიმუმ 2 ასო, ქართული ასოები</p>
+          </form>
+
+          <form action="">
+            <h3 class="surname">გვარი</h3>
+            <input
+              class="input-surname"
+              type="text"
+              id="surname"
+              name="surname"
+            /><br /><br />
+            <p class="paragraph">მინიმუმ 2 ასო, ქართული ასოები</p>
+          </form>
+        </div>
+
+        <div class="personal-photo">
+          <h3 class="photo-text">პირადი ფოტოს ატვირთვა</h3>
+          <button class="upload-btn">ატვირთვა</button>
+        </div>
+        <div>
+          <h3 class="about-me">ჩემს შესახებ (არასავალდებულო)</h3>
+          <form action="text"><input class="form-about-me" type="text" /></form>
+        </div>
+        <form>
+          <h3 class="mail">ელ-ფოსტა</h3>
+          <input
+            class="input-mail"
+            type="mail"
+            id="mail"
+            name="mail"
+          /><br /><br />
+          <p class="paragraph">უნდა მთავრდებოდეს @redberry.ge-ით</p>
+        </form>
+        <form>
+          <h3 class="number">მობილურის ნომერი</h3>
+          <input
+            class="input-number"
+            type="number"
+            id="mail"
+            name="mail"
+          /><br /><br />
+          <p class="paragraph">
+            უნდა აკმაყოფილებდეს ქართული მობილურის ნომრის ფორმატს
+          </p>
+        </form>
+      </div>
+    </div>
+  </body>
 </html>

@@ -7,15 +7,16 @@
 }
 html {
   box-sizing: border-box;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-size: 62.5%;
 }
 body {
+  font-family: "Helvetica Neue";
   max-width: 192rem;
   width: 100%;
   font-weight: 700;
   line-height: 1.6;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   background: url(../src/shutterstock_2189773743\ 1.png);
   height: 100vh;
 }
