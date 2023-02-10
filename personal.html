@@ -23,6 +23,7 @@
               type="text"
               id="name"
               name="name"
+              oninput="generateResume()"
             /><br /><br />
             <p class="paragraph">მინიმუმ 2 ასო, ქართული ასოები</p>
           </form>
@@ -34,6 +35,7 @@
               type="text"
               id="surname"
               name="surname"
+              oninput="generateResume()"
             /><br /><br />
             <p class="paragraph">მინიმუმ 2 ასო, ქართული ასოები</p>
           </form>
@@ -44,16 +46,21 @@
           <button class="upload-btn">ატვირთვა</button>
         </div>
         <div>
-          <h3 class="about-me">ჩემს შესახებ (არასავალდებულო)</h3>
-          <form action="text"><input class="form-about-me" type="text" /></form>
+          <form action="text">
+            <h3 class="about-me" id="about-me">
+              ჩემს შესახებ (არასავალდებულო)
+            </h3>
+            <textarea class="form-about-me" id="form-about-me"></textarea>
+          </form>
         </div>
         <form>
           <h3 class="mail">ელ-ფოსტა</h3>
           <input
             class="input-mail"
             type="mail"
-            id="mail"
+            id="input-mail"
             name="mail"
+            oninput="generateResume()"
           /><br /><br />
           <p class="paragraph">უნდა მთავრდებოდეს @redberry.ge-ით</p>
         </form>
@@ -62,14 +69,19 @@
           <input
             class="input-number"
             type="number"
-            id="mail"
+            id="input-number"
             name="mail"
+            oninput="generateResume()"
           /><br /><br />
           <p class="paragraph">
             უნდა აკმაყოფილებდეს ქართული მობილურის ნომრის ფორმატს
           </p>
         </form>
       </div>
+      <div id="resume">
+        <div class="cont-resume"></div>
+      </div>
     </div>
   </body>
+  <script src="js/script.js"></script>
 </html>
