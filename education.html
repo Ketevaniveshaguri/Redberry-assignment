@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/education.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cont">
+        <header class="header">
+          <div class="vector-cont">
+            <a href="experience.html"
+              ><img class="vector-icon" src="src/Vector.png"
+            /></a>
+          </div>
+          <h3 class="education">განათლება</h3>
+          <p class="three-third">3/3</p>
+        </header>
+        <div class="border"></div>
+        <form>
+          <h3 class="collage">სასწავლებელი</h3>
+          <input
+            class="form-collage"
+            type="text"
+            id="position"
+            oninput="generateResume()"
+          /><br /><br />
+          <p class="paragraph">მინიმუმ 2 სიმბოლო</p>
+        </form>
+        <div class="degree-end-date">
+          <form id="form-degree" method="post">
+            <h3 class="degree">ხარისხი</h3>
+            <input class="input-degree" list="degrees" name="degree" />
+            <datalist id="degrees">
+              <option value="საშუალო სკოლის დიპლომი"></option>
+              <option value="ზოგადსაგანმანათლებლო დიპლომი"></option>
+              <option value="ბაკალავრი"></option>
+              <option value="მაგისტრი"></option>
+              <option value="დოქტორი"></option>
+              <option value="ასოცირებული ხარისხი"></option>
+              <option value="სტუდენტი"></option>
+              <option value="კოლეჯი(ხარისხის გარეშე)"></option>
+              <option value="სხვა"></option>
+            </datalist>
+          </form>
+
+          <form action="">
+            <h3 class="end-date">დამთავრების რიცხვი</h3>
+            <input
+              class="input-end"
+              type="date"
+              id="end-date"
+              oninput="generateResume()"
+            /><br /><br />
+          </form>
+        </div>
+        <div>
+          <form action="text">
+            <h3 class="description" id="description">აღწერა</h3>
+            <textarea class="form-description" id="form-description"></textarea>
+          </form>
+        </div>
+        <div class="border-grey"></div>
+        <div>
+          <form class="a-el" action="" method="get">
+            <button class="add-more">მეტი გამოცდილების დამატება</button>
+          </form>
+        </div>
+        <div class="flex-btns">
+          <form class="a-el" action="experience.html" method="get">
+            <button class="back-link">უკან</button>
+          </form>
+          <form class="a-el" action="resume.html" method="get">
+            <button class="next-link">შემდეგი</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div id="resume"></div>
+  </body>
+  <script src="js/script.js"></script>
+</html>

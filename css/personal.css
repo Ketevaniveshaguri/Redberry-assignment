@@ -15,6 +15,20 @@ html {
   float: left;
   width: 45%;
 }
+.vector-cont {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  text-align: center;
+  padding-top: 12px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-left: -60px;
+  margin-top: 45px;
+  /* justify-content: center; */
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -24,7 +38,7 @@ input {
 }
 .border {
   border-top: 1px solid black;
-  margin-right: 100px;
+  margin-right: 74px;
   margin-top: 13px;
 }
 .one-third {
@@ -37,35 +51,29 @@ input {
   font-size: 24px;
   font-weight: 700;
   color: #1a1a1a;
-  margin-right: 500px;
+  margin-right: 598px;
   margin-top: 47px;
 }
 .name-surname-part {
   margin-top: 77px;
   display: flex;
 }
-.input-name {
-  width: 368px;
-  height: 48px;
-  margin-top: 8px;
-  border-color: #bcbcbc;
-
-  margin-right: 56px;
-}
+.input-name,
 .input-surname {
   width: 368px;
   height: 48px;
   margin-top: 8px;
   border-color: #bcbcbc;
 }
-.name {
-  font-size: 16px;
-  font-weight: 500;
+.input-name {
+  margin-right: 56px;
 }
+.name,
 .surname {
   font-size: 16px;
   font-weight: 500;
 }
+
 .paragraph {
   font-size: 14px;
   font-weight: 300;
@@ -109,23 +117,18 @@ input {
   padding-left: 15px;
   border: 1px solid #bcbcbc;
 }
-.mail {
-  font-size: 16px;
-  margin-bottom: 8px;
-}
-.input-mail {
-  width: 795px;
-  height: 48px;
-}
+.mail,
 .number {
   font-size: 16px;
   margin-bottom: 8px;
+  font-weight: 500;
 }
-
+.input-mail,
 .input-number {
   width: 795px;
   height: 48px;
 }
+
 #resume {
   width: 43%;
   float: right;
@@ -148,6 +151,12 @@ h1,
   margin-bottom: 1rem;
 }
 
-/* .about {
-  content: "ჩემს შესახებ";
-} */
+.next-link {
+  width: 151px;
+  height: 48px;
+  margin-left: 640px;
+  bottom: 65px;
+  color: white;
+  background-color: #6b40e3;
+  font-size: 16px;
+}
