@@ -120,16 +120,59 @@ input {
   padding-left: 15px;
   border: 1px solid #bcbcbc;
 }
-.mail,
+.input-mail,
 .number {
   font-size: 16px;
   margin-bottom: 8px;
   font-weight: 500;
 }
+
+.rre {
+  margin-top: 3px;
+}
 .input-mail,
 .input-number {
   width: 795px;
   height: 48px;
+}
+
+label {
+  display: block;
+}
+
+input[type="email"] {
+  padding: 10px;
+  border: 1px solid #bcbcbc;
+  border-radius: 5px;
+  position: relative;
+}
+
+input[type="email"].valid + span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(/src/vector1.png) no-repeat center;
+  position: absolute;
+  top: 61%;
+  margin-left: 12px;
+}
+
+input[type="email"].invalid + span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url(/src/vector2.png) no-repeat center;
+  position: absolute;
+  top: 61%;
+  margin-left: 12px;
+}
+
+input[type="email"].valid {
+  border: 1px solid #98e37e;
+}
+
+input[type="email"].invalid {
+  border: 1px solid #ef5050;
 }
 
 #resume {

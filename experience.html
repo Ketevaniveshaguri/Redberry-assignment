@@ -16,59 +16,35 @@
               ><img class="vector-icon" src="src/Vector.png"
             /></a>
           </div>
-          <h3 class="experience">გამოცდილება</h3>
+          <h3 class="experience" id="experience">გამოცდილება</h3>
           <p class="two-third">2/3</p>
         </header>
         <div class="border"></div>
         <form>
           <h3 class="position">თანამდებობა</h3>
-          <input
-            class="form-position"
-            type="text"
-            id="position"
-            oninput="generate()"
-          /><br /><br />
+          <input class="form-position" type="text" id="position" /><br /><br />
           <p class="paragraph">მინიმუმ 2 სიმბოლო</p>
         </form>
         <form>
           <h3 class="employer">დამსაქმებელი</h3>
-          <input
-            class="form-employer"
-            type="text"
-            id="employer"
-            oninput="generateResume()"
-          /><br /><br />
+          <input class="form-employer" type="text" id="employer" /><br /><br />
           <p class="paragraph">მინიმუმ 2 სიმბოლო</p>
         </form>
         <div class="start-end-date">
           <form>
             <h3 class="start-date">დაწყების რიცხვი</h3>
-            <input
-              class="input-start"
-              type="date"
-              id="start"
-              oninput="generateResume()"
-            /><br /><br />
+            <input class="input-start" type="date" id="start" /><br /><br />
           </form>
 
           <form action="">
             <h3 class="end-date">დამთავრების რიცხვი</h3>
-            <input
-              class="input-end"
-              type="date"
-              id="end-date"
-              oninput="generateResume()"
-            /><br /><br />
+            <input class="input-end" type="date" id="end" /><br /><br />
           </form>
         </div>
         <div>
           <form action="text">
             <h3 class="description" id="description">აღწერა</h3>
-            <textarea
-              class="form-description"
-              id="form-description"
-              oninput="generateResume()"
-            ></textarea>
+            <textarea class="form-description" id="form-description"></textarea>
           </form>
         </div>
         <div class="border-grey"></div>

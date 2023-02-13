@@ -21,26 +21,24 @@
         </header>
         <div class="border"></div>
         <div class="name-surname-part">
-          <form>
+          <form class="form">
             <h3 class="name">სახელი</h3>
             <input
               class="input-name"
               type="text"
               id="name"
               name="name"
-              oninput="generateResume()"
             /><br /><br />
             <p class="paragraph">მინიმუმ 2 ასო, ქართული ასოები</p>
           </form>
 
-          <form action="">
+          <form class="form">
             <h3 class="surname">გვარი</h3>
             <input
               class="input-surname"
               type="text"
               id="surname"
               name="surname"
-              oninput="generateResume()"
             /><br /><br />
             <p class="paragraph">მინიმუმ 2 ასო, ქართული ასოები</p>
           </form>
@@ -62,27 +60,18 @@
           </form>
         </div>
         <div>
-          <form action="text">
-            <h3 class="about-me" id="about-me" oninput="generateResume()">
+          <form action="text" id="form">
+            <h3 class="about-me" id="about-me">
               ჩემს შესახებ (არასავალდებულო)
             </h3>
-            <textarea
-              class="form-about-me"
-              id="form-about-me"
-              oninput="generateResume()"
-            ></textarea>
+            <textarea class="form-about-me" id="form-about-me"></textarea>
           </form>
         </div>
-        <form>
-          <h3 class="mail">ელ-ფოსტა</h3>
-          <input
-            class="input-mail"
-            type="mail"
-            id="input-mail"
-            name="mail"
-            oninput="generateResume()"
-          /><br /><br />
-          <p class="paragraph">უნდა მთავრდებოდეს @redberry.ge-ით</p>
+        <form id="emailForm">
+          <label class="mail" for="email">ელ-ფოსტა</label>
+          <input class="input-mail" type="email" id="email" name="email" />
+          <span id="icon"></span>
+          <p class="paragraph rre">უნდა მთავრდებოდეს @redberry.ge-ით</p>
         </form>
         <form>
           <h3 class="number">მობილურის ნომერი</h3>
@@ -91,7 +80,6 @@
             type="number"
             id="input-number"
             name="mail"
-            oninput="generateResume()"
           /><br /><br />
           <p class="paragraph">
             უნდა აკმაყოფილებდეს ქართული მობილურის ნომრის ფორმატს
