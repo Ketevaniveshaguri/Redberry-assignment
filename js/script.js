@@ -79,46 +79,46 @@ function generateExperience() {
 
   position.addEventListener("input", function () {
     const resumeHTML = `
-      <p class="position-j">${position.value}</p> 
-      <p class="employer-j">${employer.value}</p>
-      <p>${startDate.value + " " + endDate.value}</p>
-      <p>${description.value}</p>  
+      <p class="positionj">${position.value}</p> 
+      <p class="employerj">${employer.value}</p>
+      <p class="strtenddatej">${startDate.value + " " + endDate.value}</p>
+      <p class="descriptionj">${description.value}</p>  
     `;
     resume.innerHTML = resumeHTML;
   });
   employer.addEventListener("input", function () {
     const resumeHTML = `
-      <p class="position-j">${position.value}</p> 
-      <p class="employer-j">${employer.value}</p> 
-      <p>${startDate.value + " " + endDate.value}</p>
-      <p>${description.value}</p> 
+      <p class="positionj">${position.value}</p> 
+      <p class="employerj">${employer.value}</p> 
+      <p class="strtenddatej">${startDate.value + " " + endDate.value}</p>
+      <p class="descriptionj">${description.value}</p> 
     `;
     resume.innerHTML = resumeHTML;
   });
   startDate.addEventListener("input", function () {
     const resumeHTML = `
-      <p class="position-j">${position.value}</p> 
-      <p class="employer-j">${employer.value}</p> 
-      <p>${startDate.value + " " + endDate.value}</p>
-      <p>${description.value}</p> 
+      <p class="positionj">${position.value}</p> 
+      <p class="employerj">${employer.value}</p> 
+      <p class="strtenddatej">${startDate.value + " " + endDate.value}</p>
+      <p class="descriptionj">${description.value}</p> 
     `;
     resume.innerHTML = resumeHTML;
   });
   endDate.addEventListener("input", function () {
     const resumeHTML = `
-      <p class="position-j">${position.value}</p> 
-      <p class="employer-j">${employer.value}</p> 
-      <p>${startDate.value + " " + endDate.value}</p>
-      <p>${description.value}</p> 
+      <p class="positionj">${position.value}</p> 
+      <p class="employerj">${employer.value}</p> 
+      <p class="strtenddatej" >${startDate.value + " " + endDate.value}</p>
+      <p class="descriptionj" >${description.value}</p> 
     `;
     resume.innerHTML = resumeHTML;
   });
   description.addEventListener("input", function () {
     const resumeHTML = `
-      <p class="position-j">${position.value}</p> 
-      <p class="employer-j">${employer.value}</p> 
-      <p>${startDate.value + " " + endDate.value}</p>
-      <p>${description.value}</p> 
+      <p class="positionj">${position.value}</p> 
+      <p class="employerj">${employer.value}</p> 
+      <p class="strtenddatej >${startDate.value + " " + endDate.value}</p>
+      <p class="descriptionj">${description.value}</p> 
     `;
     resume.innerHTML = resumeHTML;
   });
