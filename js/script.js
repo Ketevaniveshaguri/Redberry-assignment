@@ -13,6 +13,7 @@ function generateResume() {
 
   <p class="about">${aboutMe}</p> 
   
+  
 
 
 
@@ -20,4 +21,21 @@ function generateResume() {
 
 `;
   resume.innerHTML = resumeHTML;
+}
+
+function validateEmail() {
+  var email = document.getElementById("email");
+  if (checkEmail(email.value)) {
+    email.classList.remove("invalid");
+    email.classList.add("valid");
+  } else {
+    email.classList.remove("valid");
+    email.classList.add("invalid");
+  }
+}
+
+function checkEmail(email) {
+  var re =
+    /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@redberry.ge$/;
+  return re.test(String(email).toLowerCase());
 }

@@ -24,7 +24,7 @@ html {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  margin-left: -60px;
+  margin-left: -100px;
   margin-top: 45px;
   /* justify-content: center; */
 }
@@ -52,6 +52,7 @@ input {
   font-weight: 700;
   color: #1a1a1a;
   margin-right: 598px;
+  margin-left: 55px;
   margin-top: 47px;
 }
 .name-surname-part {
@@ -84,7 +85,7 @@ input {
 }
 .personal-photo {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   margin-bottom: 54px;
 }
 .photo-text {
@@ -101,6 +102,8 @@ input {
   background-color: #0e80bf;
   color: white;
   border-radius: 4px;
+  text-align: center;
+  /* margin-top: 30px; */
 }
 .about-me {
   font-size: 16px;

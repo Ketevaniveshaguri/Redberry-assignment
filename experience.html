@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/experience.css" />
-    <title>Document</title>
+    <title>Experience</title>
   </head>
   <body>
     <div class="container">
       <div class="cont">
         <header class="header">
           <div class="vector-cont">
-            <a href="personal.html"
+            <a href="index.html"
               ><img class="vector-icon" src="src/Vector.png"
             /></a>
           </div>
@@ -26,7 +26,7 @@
             class="form-position"
             type="text"
             id="position"
-            oninput="generateResume()"
+            oninput="generate()"
           /><br /><br />
           <p class="paragraph">მინიმუმ 2 სიმბოლო</p>
         </form>
@@ -64,7 +64,11 @@
         <div>
           <form action="text">
             <h3 class="description" id="description">აღწერა</h3>
-            <textarea class="form-description" id="form-description"></textarea>
+            <textarea
+              class="form-description"
+              id="form-description"
+              oninput="generateResume()"
+            ></textarea>
           </form>
         </div>
         <div class="border-grey"></div>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/personal.css" />
-    <title>Document</title>
+    <title>Personal Info</title>
   </head>
   <body>
     <div class="container">
@@ -48,14 +48,29 @@
 
         <div class="personal-photo">
           <h3 class="photo-text">პირადი ფოტოს ატვირთვა</h3>
-          <button class="upload-btn">ატვირთვა</button>
+          <form>
+            <label class="upload-btn" for="file-input" style="display: block"
+              >ატვირთვა</label
+            >
+            <input
+              type="file"
+              id="file-input"
+              accept="image/*"
+              style="display: none"
+            />
+            <br /><br />
+          </form>
         </div>
         <div>
           <form action="text">
-            <h3 class="about-me" id="about-me">
+            <h3 class="about-me" id="about-me" oninput="generateResume()">
               ჩემს შესახებ (არასავალდებულო)
             </h3>
-            <textarea class="form-about-me" id="form-about-me"></textarea>
+            <textarea
+              class="form-about-me"
+              id="form-about-me"
+              oninput="generateResume()"
+            ></textarea>
           </form>
         </div>
         <form>

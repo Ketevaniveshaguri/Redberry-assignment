@@ -24,7 +24,7 @@ html {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  margin-left: -60px;
+  margin-left: -100px;
   margin-top: 45px;
   /* justify-content: center; */
 }
@@ -44,7 +44,17 @@ html {
   font-weight: 700;
   color: #1a1a1a;
   margin-right: 623px;
+  margin-left: 55px;
+
   margin-top: 47px;
+}
+.paragraph {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: -5px;
+  margin-bottom: 54px;
+
+  color: #2e2e2e;
 }
 .three-third {
   font-size: 20px;
@@ -60,7 +70,7 @@ html {
 .end-date {
   font-size: 16px;
   margin-bottom: 8px;
-  font-weight: 600;
+  font-weight: 500;
   color: #000000;
 }
 .form-collage {
